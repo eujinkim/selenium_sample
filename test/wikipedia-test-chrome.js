@@ -6,6 +6,7 @@ var assert = require('assert'),
 var server = new SeleniumServer('"http://ec2-54-187-100-223.us-west-2.compute.amazonaws.com:4444/wd/hub"', {
   port: 4444
 });
+server.start();
 
 var driver = new webdriver.Builder().
         usingServer(server.address()).
