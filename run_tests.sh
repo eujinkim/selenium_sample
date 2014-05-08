@@ -1,4 +1,3 @@
 #!/bin/bash
-pwd
-ls
+npm install
 node run_external_tests.js
