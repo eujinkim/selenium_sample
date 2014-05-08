@@ -3,10 +3,9 @@ var assert = require('assert'),
     webdriver = require('selenium-webdriver'),
     SeleniumServer = require('selenium-webdriver/remote').SeleniumServer;
 
-var server = new SeleniumServer("http://ec2-54-187-100-223.us-west-2.compute.amazonaws.com:4445/wd/hub", {
-  port: 4445
+var server = new SeleniumServer("http://ec2-54-187-100-223.us-west-2.compute.amazonaws.com:4444/wd/hub", {
+  port: 4444
 });
-server.start();
 
 var driver = new webdriver.Builder().
         usingServer(server.address()).
