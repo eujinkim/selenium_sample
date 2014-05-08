@@ -1,4 +1,4 @@
 #!/bin/bash
 pwd
 ls
-mocha run_external_tests.js
+node run_external_tests.js
