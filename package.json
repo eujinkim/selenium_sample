@@ -1,0 +1,19 @@
+{
+    "name": "wikipedia-parellel-testing",
+    "readme": "wikipedia parellel testing",
+    "version": "0.0.1",
+    "devDependencies": {
+        "html5": "0.3.13",
+        "expect.js": "*",
+        "mocha": "*",
+        "assert": "*",
+        "selenium-webdriver": "*"
+    },
+    "repository" : {
+        "type" : "none",
+        "url" : "localhost"
+    },
+	"scripts": {
+		"test": "./node_modules/mocha/bin/mocha -R spec"
+	}
+}
